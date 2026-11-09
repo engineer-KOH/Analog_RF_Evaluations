@@ -61,11 +61,7 @@ evaluate_onwafer_thermal/
 ├── README.md                                    # モジュール解説ドキュメント
 ├── .gitignore                                   # モジュール用除外設定
 ├── inputs/                                      # 評価対象の測定データ（CSV/S2P等）の格納先
-│   ├── .gitkeep                                 # フォルダ維持用ファイル
-│   └── sample_onwafer_thermal_measurement_data.csv # 入力サンプルデータ
 ├── outputs/                                     # 自動生成された解析レポート・グラフの出力先
-│   ├── .gitkeep                                 # フォルダ維持用ファイル
-│   └── rf_onwafer_thermal_evaluation_report.xlsx # 自動生成レポート例
 └── src/                                         # 評価処理プログラム
     └── evaluate_onwafer_thermal.py              # 熱特性評価メインパイプライン
 ```
